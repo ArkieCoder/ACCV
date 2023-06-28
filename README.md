@@ -6,6 +6,6 @@ I used the [BubbleCV](https://github.com/mateuszbaransanok/BubbleCV) template, a
 
 The source is built into a PDF using GitHub actions.
 
-[View ArkieCoder's CV on GitHub](CV.pdf)
+[View ArkieCoder's CV on GitHub](CV.pdf) (Hyperlinks are stripped out in GitHub PDF viewer!)
 
 [Download ArkieCoder's CV](https://raw.githubusercontent.com/ArkieCoder/ACCV/master/CV.pdf)
