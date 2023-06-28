@@ -31,3 +31,9 @@ jobs:
           root_file: main.tex
           compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
+      
+      - name: Update PDF in repository
+        uses: EndBug/add-and-commit@latest
+        with:
+          message: "Automatically updating PDF in repository"
+          add: main.pdf
