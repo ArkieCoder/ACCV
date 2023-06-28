@@ -1,0 +1,354 @@
+\documentclass{article}
+\usepackage{bubblecv}
+
+\begin{document}
+
+\raggedbottom
+\begin{cv}[avatar]{Jason Reeves}{Senior Coder - seeking DevOps opportunities}
+\cvsidebar %-----------------------------------------------------------------------------
+
+
+\cvsection[contact]{Contact}  %----------------------------------------------------------
+
+\begin{cvitem}[Envelope][4]
+    \textbf{Email}\\
+    \texttt{jhr@unitedentropy.com}
+\end{cvitem}
+
+\cvseparator[3]
+\begin{cvitem}[Phone][4]
+    \textbf{Phone}\\
+    \texttt{479.422.6782}
+\end{cvitem}
+
+\cvseparator[3]
+\begin{cvitem}[Home][4]
+    \textbf{Address}\\
+    805 Hwy 59, Noel, MO  64854
+\end{cvitem}
+
+\cvseparator[3]
+\begin{cvitem}[Globe][4]
+    \textbf{Website}\\
+    \texttt{https://tinyurl.com/4p9fne8y}
+\end{cvitem}
+
+
+\cvsection[skills]{Skills}  %-----------------------------------------------------------
+
+\begin{cvitem}
+    Linux
+\end{cvitem}
+
+\cvseparator
+\begin{cvitem}
+    DevOps
+\end{cvitem}
+
+\cvseparator
+\begin{cvitem}
+    Terraform
+\end{cvitem}
+
+\cvseparator
+\begin{cvitem}
+    Ansible
+\end{cvitem}
+
+\cvseparator
+\begin{cvitem}
+    Django
+\end{cvitem}
+
+\cvseparator
+\begin{cvitem}
+    Root Cause Analysis
+\end{cvitem}
+
+\cvseparator
+\begin{cvitem}
+    Developer Mentoring
+\end{cvitem}
+
+\cvseparator
+\begin{cvitem}
+    Problem Solving
+\end{cvitem}
+
+\cvsection[education]{Education}  %------------------------------------------------------
+\cvname{University of Arkansas - 1995-2005}
+\cvdescription{Fayetteville, AR}
+\textbf{Degrees:}
+\begin{itemize}
+  \item Bachelor's Degree: Computer Science
+  \item Bachelor's Degree: Mathematics
+\end{itemize}
+\vspace*{3mm}
+\textbf{Activities And Societies:}
+\begin{itemize}
+  \item Razorback Marching Band
+  \item Baptist Student Union
+  \item International Student Christian Association
+  \item Student Mobilization
+  \item Amateur Radio Club of the U of A
+\end{itemize}
+\vspace*{3mm}
+My time at the U of A began in 1995. I dropped out in 1998 to pursue work opportunities, and later had the opportunity to continue my studies beginning in 2003, graduating in May of 2005.
+
+
+\switchcolumn
+\renewcommand{\iscvsidebar}{0}
+
+\cvsection[summary]{Profile}  %-----------------------------------------------------------
+I am a senior code slinger (25+ years of experience) with a passion for automation, scripting, DevOps, mentoring developers, and writing full stack apps. I am a Christian, a father, a musician, a tinkerer, a reader, and many other things. I am always looking for new things to learn and new opportunities to excel.
+\vspace*{3mm}
+
+For the last few years, I have been developing software, implementing infrastructure as code practices, and building deployment frameworks using Terraform, Ansible, shell scripts, etc.  I have realized that I have a good foundational skill set for DevOps, that DevOps is a lot of fun, and that I would like to pursue DevOps exclusively for the remainder of my IT career.
+
+\cvsection[work]{Recent Work Experience}
+%------------------------------------------------------
+\begin{cvevent}[August 2021][present]
+    \cvname{Information Security Engineer}
+    \cvdescription{Simmons Foods, Siloam Springs, AR - Remote}
+    Implemented BeyondTrust's PRA (Privileged Remote Access) tool as a VPAM (Vendor Privilege Access Management) solution, built an Ansible plugin used to configure BeyondTrust using YAML files, moved on-premise ELK (Elasticsearch-Logstash-Kibana) stack to AWS using OpenSearch and Fluentd, automated the roll outs as much as possible.
+
+    \vspace*{3mm}
+    \textbf{Skills:}  Linux · JavaScript · Terraform · Ansible · jq · Django · Python · Ruby · Shell Scripting · GitHub · OpenSearch · Fluentd · Amazon Web Services (AWS) · BeyondTrust · docker
+
+    \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Mar 2018][Aug 2021]
+  \cvname{Senior Application Developer}
+  \cvdescription{Simmons Foods, Siloam Springs, AR - Remote}
+  Spearheaded adoption of on-premise Git as a source code management solution, oversaw the transition to GitHub, specified a custom app strategy involving Python/Django in AWS, created Terraform code to deploy application infrastructure to AWS, utilized GitHub actions to automatically deploy code, architected a solution using GitHub actions to deploy MS SQL Server stored procedures to our on-premise SQL Server instances directly from GitHub.
+  
+  \vspace*{3mm}
+  \textbf{Skills:}  Linux · JavaScript · Oracle Database · BI Publisher · XSL-FO · Terraform · Ansible · jq · Django · Python · Ruby · Shell Scripting · GitHub · Amazon Web Services (AWS) · docker
+\end{cvevent}
+
+
+\onecolumn
+\cvsection[target]{Recent Projects}  %----------------------------------------------------------
+
+\begin{cvevent}[2022-2023]
+    \cvname{OpenSearch Domain Architecture}
+    \cvdescription{Simmons Foods, Siloam Springs, AR}
+    Architected a SIEM stack in AWS using Fluentd for log ingestion and the AWS OpenSearch service for search and visualization.  The AWS parts were built using Terraform, and the OpenSearch configuration was handled in an idempotent way by leveraging the OpenSearch APIs via shell scripts.  Fluentd was implemented using three EC2 instances running behind a Network Load Balancer.  
+    \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[2022-2023]
+    \cvname{BeyondTrust PRA Implementation}
+    \cvdescription{Simmons Foods, Siloam Springs, AR}
+    Worked on roll out of BeyondTrust PRA (Privileged Remote Access) throughout the organization for the purpose of VPAM (Vendor Privilege Access Management).  Leveraged published and unpublished APIs to create an Ansible plugin for configuring BeyondTrust, reducing the administrative burden to editing a series of YAML files.  
+    \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[2020-2021]
+    \cvname{Built Terraform Deployment Framework}
+    \cvdescription{Simmons Foods, Siloam Springs, AR}
+    Created the \texttt{configure\_deploy.py} script to configure the deployment of infrastructure defined via Terraform to easily deploy the code from any branch of any GitHub repository to any AWS account using any set of environment variables.
+    \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[2020-2021]
+    \cvname{Defined Full Stack App Architecture as Code}
+    \cvdescription{Simmons Foods, Siloam Springs, AR}
+    Using Terraform, created code to roll out: AWS shared objects (objects shared across full stack apps), Image Build Pipelines, EC2 instances, RDS instances, load balancers, S3 buckets, users, profiles, Code Pipelines, etc.  This code was modularized so that all pieces of a full stack app could be actuated from one Terraform file.
+    \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[2019-2020]
+    \cvname{Successfully Pushed for Adoption of Git, Then GitHub}
+    \cvdescription{Simmons Foods, Siloam Springs, AR}
+    Spearheaded the use and adoption of Git source management tool internally, then led use and adoption of GitHub SaaS after it was determined that Git added value.  I coordinated the migration of on-premise Git repositories to GitHub, and leveraged GitHub Actions to automatically deploy Microsoft SQL Server stored procedures, application configuration, and Oracle BI Publisher reports.
+    \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[2019]
+    \cvname{Defined Full Stack App Strategy}
+    \cvdescription{Simmons Foods, Siloam Springs, AR}
+    When I arrived at Simmons, the web application strategy revolved around Oracle Apex, a free, low-code platform tightly integrated with the Oracle Database.  Initially, I worked to establish Git repositories (later GitHub) as the source of truth for Apex applications.  The SQL representation of the application would be stored in a repository and manually deployed from there by DBAs.
+
+    \vspace*{3mm}
+    After working for some time with Oracle Apex applications, developing shared code for AD group access, figuring out a way to do unit tests, etc. I determined that the no code / low code strategy was not profitable as applications become more and more complex.  With the agreement of leadership, I spent some time researching alternatives, and arrived at the conclusion that the Django platform was a good solution for Simmons.  This strategy was approved, and we started building our first full stack web applications with Django and deploying them to AWS.
+\end{cvevent}
+
+\begin{cvevent}[2018-2020]
+    \cvname{Built Deployment Framework for Oracle BI Publisher Reports}
+    \cvdescription{Simmons Foods, Siloam Springs, AR}
+    Leveraged Oracle BI Publisher APIs using a combination of Ruby and shell scripts whereby report definitions were stored in on-premise Git repositories and deployed to various BI Publisher environments (Development, QA, Production) using these tools.  Eventually moved these repositories to GitHub and ran the deployments automatically using GitHub Actions and "on-premise" action runners living in AWS within a VPC that had access to our local network.  
+    \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[2018-2020]
+    \cvname{Built Deployment Framework for SQL Server Stored Procedures}
+    \cvdescription{Simmons Foods, Siloam Springs, AR}
+    At Simmons, a third-party contractor had been hired to create reports within Oracle BI Publisher.  The contractor had included raw SQL queries at the report level that were copied and pasted into the different reports with slight modifications to each query.  I analyzed the code, developed a library of common stored procedures based on each use case, and rewrote each report to use the new stored procedures.
+
+    \vspace*{3mm}
+    As with the BI Publisher reports, it was necessary to create a deployment framework that would use Git and later GitHub as the source of truth for the stored procedures, but would facilitate deployment to each tiered SQL server environment.  Initially, the deployment process simply created a \texttt{RELEASE\_FILE.sql} which we would hand off to the Infrastructure team.  Later, we automated this step of the deployment using GitHub Actions and our "on-premise" action runners.
+    \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[2018-2020]
+    \cvdescription{Simmons Foods, Siloam Springs, AR}
+    \cvname{Built Deployment Framework for Application Configuration Files}
+    Oracle's PLM (Product Lifecycle Management) is a C\#.Net application which requires changing settings in a number of XML and KVP text files.  When these files were under manual management, the software was very fragile and it was often impossible to track down the root cause of an instability.
+
+    \vspace*{3mm}
+    I worked to establish Git / GitHub as a source of truth for these configuration files, and built a deployment framework using Ansible to not only push the files out to the servers in various environments, but also to manage scheduled jobs, install packages, and other OS-level tasks.  
+    \vspace*{5mm}
+\end{cvevent}
+
+\cvsection[work]{Historic Work Experience}
+\begin{cvevent}[Sep 2016][Sep 2017]
+  \cvname{Full Stack Engineer}
+  \cvdescription{CompuNet, Meridian, ID - Remote / Contract}
+  I worked on a full stack application with a C\# backend using Linux and Mono, and an AngularJS front end. The backend of the application connected to a ticketing system, and the AngularJS front end presented some dashboard information to be presented to CompuNet's command center. As of 2018, I received word my software was still in operation and working well.
+  
+  \vspace*{3mm}
+  \textbf{Skills:} Linux · JavaScript · docker · AngularJS · C\# · HTML · Cascading Style Sheets (CSS) · Bootstrap
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Jul 2013][Sep 2016]
+  \cvname{Full Stack Engineer}
+  \cvdescription{Gartman Systems, Sheridan, AR - Remote / Contract}
+  Using Groovy on Grails, created a responsive CRM (Customer Relationship Management) application running on IBM's i/OS.
+  
+  \vspace*{3mm}
+  \textbf{Skills:} i/OS · Linux · Groovy · Grails · IBM Db2 · Java · Perl · JavaScript · Shell Scripting · HTML · Cascading Style Sheets (CSS) · Bootstrap
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Jul 2011][Oct 2015]
+  \cvname{Software Engineer}
+  \cvdescription{Integrated Digital Solutions, Redondo Beach, CA - Remote / Contract}
+  The bulk of my time at IDS was spent writing Javascript for a set-top box device from a French company called Netgem. It was a fun project with a group of really smart guys who were patient to answer all my dumb questions. I learned quite a bit about tracking down bugs in code, especially memory leaks, writing well-factored code, detecting code smells, proper utilization of sourse control, etc. Later on I spent a short time working on a full stack app which made use of Chef and Puppet to spin up virtual hardware. That project had a Ruby on Rails backend and an AngularJS front end. It was a truly exceptional team to work with.  
+  
+  \vspace*{3mm}
+  \textbf{Skills:} Linux · Ruby on Rails · JavaScript · AngularJS
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Feb 2009][Jul 2011]
+  \cvname{Software Engineer}
+  \cvdescription{United Entropy Associates, Leola, AR - Remote / Contract}
+  United Entropy Associates was the name of the company I created as a convenience to facilitate working on various contracts. Wherever you see that I was working on a contract basis in my resume, I was actually working via the vehicle of United Entropy Associates. I've outlined in more detail the longer and more rewarding contracts in which I engaged, but during this period I was servicing smaller clients. These clients typically were small businesses with e-commerce websites backed by Quickbooks. We used a third party provider to provide XCart (Quickbooks sync) functionality for these customers, while writing custom code in HTML, CSS, Javascript, and PHP.
+  
+  \vspace*{3mm}
+  \textbf{Skills:} X-Cart · QuickBooks · XSLT · PHP · Linux · Java · JavaScript · Cascading Style Sheets (CSS)
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Sep 2007][Feb 2009]
+  \cvname{Software Engineer}
+  \cvdescription{SITO, Jersey City, NJ - Remote / Contract}
+  At SITO (Singletouch at the time I worked there) I wrote Perl code to control the behavior of IVR (Interactive Voice Response) systems within Asterisk, which is an open source PBX (Private Branch Exchange) software. I experimented with calling Java classes from within Perl programs, needed for integrating data from Jasper Reports into our Perl reporting framework.
+  
+  \vspace*{3mm}
+  \textbf{Skills:} Asterisk (PBX) · Linux · Jasper Reports · Java · Perl
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Sep 2005][Sep 2007]
+  \cvname{Datacenter Supervisor}
+  \cvdescription{Tyson Foods, Springdale, AR}
+  After completing my degree, I moved back to the Tyson datacenter, this time as a supervisor. I found more processes to improve, more software to write, and more fun to be had. I supervised four employees who knew their jobs well, and discovered that the best thing I could do was to get out of their way and let them do it, offering to get them what they needed and remove roadblocks wherever possible.
+  \vspace*{3mm}
+  
+  In this position I was also responsible for administering Cronacle, and enterprise job scheduling system tightly integrated with Oracle database software.
+  \vspace*{3mm}
+  
+  \textbf{Skills:} PL/SQL · Cronacle · IBM AIX · Linux · Perl · JavaScript · Shell Scripting · HTML · Cascading Style Sheets (CSS)
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Sep 2004][Sep 2005]
+  \cvname{Enterprise Application Developer}
+  \cvdescription{Tyson Foods, Springdale, AR}
+  As I arrived at the final two semesters of my degree program, there were some scheduling difficulties that precluded me from continuing in the datacenter at Tyson. I found an opening for an Enterprise Application Developer that would allow for a more flexible schedule, was awarded the job, and was able to finish my degree. In this role, I was responsible for some Java development, application stress testing, commercial application configuration and deployment (Java applications deployed onto JBoss / Weblogic / etc.), and monitoring of those applications.
+  \vspace*{3mm}
+  
+  \textbf{Skills:} SQL · IBM AIX · Linux · Java · Perl · Shell Scripting
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Sep 2001][Sep 2004]
+  \cvname{Computer Operator}
+  \cvdescription{Tyson Foods, Springdale, AR}
+  I worked in Tyson's datacenter, operating huge high speed printers, writing software, improving processes, schlepping backup tapes offsite and onsite. I used the opportunity while I was working the weekend night shift to take advantage of Tyson's tuition reimbursement program. I went back to school and started finishing up my Computer Science and Mathematics degrees.
+  \vspace*{3mm}
+  
+  \textbf{Skills:} SQL · IBM AIX · Linux · Java · Perl · Shell Scripting
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[May 2000][Jan 2001]
+  \cvname{Unix Systems Administrator}
+  \cvdescription{MP3.com, San Diego, CA}
+  Primarily, I worked as a Solaris systems administrator at MP3.com, but I also did some work writing Perl code for the website, administering Linux systems, and implementing web-based email solutions. I exited the company in the first of a series of layoffs that ultimately saw the company completely absorbed into Vivendi Universal.
+  \vspace*{3mm}
+  
+  \textbf{Skills:} Solaris · Linux · Perl · Shell Scripting
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Mar 2000][May 2000]
+  \cvname{Systems Administrator}
+  \cvdescription{OnTheVerge, San Diego, CA}
+  This was kind of a low point in my career and in my maturity. I only worked at OnTheVerge for a couple of months before being offered a job at a shiny new startup - MP3.com. I actually think OnTheVerge outlasted MP3.com. 
+  \vspace*{3mm}
+  
+  OnTheVerge was a web hosting provider, back when you could make money hosting websites. I was responsible for administering Apache and IIS websites for customers, datacenter runs, cabling, OS patches and upgrades - basically everything from soup to nuts.
+  \vspace*{3mm}
+  
+  \textbf{Skills:} Linux · Perl · Shell Scripting
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Nov 1999][Mar 2000]
+  \cvname{Programmer / Analyst II}
+  \cvdescription{UC San Diego, San Diego, CA}
+  Primarily, I worked as a Solaris systems administrator at MP3.com, but I also did some work writing Perl code for the website, administering Linux systems, and implementing web-based email solutions. I exited the company in the first of a series of layoffs that ultimately saw the company completely absorbed into Vivendi Universal.
+  \vspace*{3mm}
+  
+  \textbf{Skills:} IRIX · Solaris · Linux · Perl · Shell Scripting
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Jan 1998][Nov 1999]
+  \cvname{Systems Administrator}
+  \cvdescription{Center for Advanced Spatial Technologies, Fayetteville, AR}
+  Although technically still an employee of the UA, I worked for CAST before I left to go to San Diego. I administered Solaris servers and workstations, patched and installed operating systems, and light housekeeping.
+  \vspace*{3mm}
+  
+  \textbf{Skills:} Solaris · Linux · Shell Scripting
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Jan 1997][Nov 1998]
+  \cvname{Java Software Engineer}
+  \cvdescription{University of Arkansas, Fayetteville, AR}
+  Wrote Java servlets, did database connection pooling before it was cool, worked with virtual database drivers that were actually doing screen scraping from a TN5250 terminal interface.
+  \vspace*{3mm}
+  
+  \textbf{Skills:} Solaris · Linux · Java · Shell Scripting · HTML
+  \vspace*{5mm}
+\end{cvevent}
+
+\begin{cvevent}[Nov 1995][Jan 1997]
+  \cvname{Desktop Unix Support Specialist}
+  \cvdescription{University of Arkansas, Fayetteville, AR - Part Time}
+  This was my first "real job". I was responsible for Solaris workstations sitting on the desks of professors in Mathematics, Chemistry, and other departments within the Fulbright College of Arts and Sciences at the U of A. We installed and patched these Solaris workstations, and maintained them by keeping them patched, performing upgrades, and adding / removing software as required. I was responsible for maintaining the group's documentation website.
+  \vspace*{3mm}
+  
+  \textbf{Skills:} Solaris · Linux · Java · Shell Scripting · HTML
+  \vspace*{5mm}
+\end{cvevent}
+
+\end{cv}
+
+\end{document}
