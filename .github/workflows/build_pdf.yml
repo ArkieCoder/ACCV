@@ -31,8 +31,8 @@ jobs:
         uses: dante-ev/latex-action@latest
         with:
           root_file: main.tex
-          compiler: pdflatex
-          args: -interaction=nonstopmode -shell-escape
+          #compiler: pdflatex
+          #args: -interaction=nonstopmode -shell-escape
       
       - name: Update PDF in repository
         uses: EndBug/add-and-commit@v9
