@@ -31,9 +31,15 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: CV.tex
-      
-      - name: Update PDF in repository
+
+      - name: Install PDF tooling
+        run: python3 -m pip install --disable-pip-version-check pypdf==6.10.0
+
+      - name: Build section PDFs
+        run: python3 scripts/split_cv.py CV.pdf Resume.pdf Projects.pdf HistoricWork.pdf
+
+      - name: Update PDFs in repository
         uses: EndBug/add-and-commit@v9
         with:
-          message: "Automatically updating PDF in repository"
-          add: CV.pdf
+          message: "Automatically updating PDFs in repository"
+          add: "CV.pdf Resume.pdf Projects.pdf HistoricWork.pdf"
