@@ -6,17 +6,22 @@ I used the [BubbleCV](https://github.com/mateuszbaransanok/BubbleCV) template, a
 
 The source is built into a PDF using GitHub actions.
 
-## Links
-* [View ArkieCoder's CV on GitHub](CV.pdf) (Hyperlinks are stripped out in GitHub PDF viewer!)
-* [Download ArkieCoder's CV](https://raw.githubusercontent.com/ArkieCoder/ACCV/master/CV.pdf)
-* [View ArkieCoder's Resume on GitHub](Resume.pdf) (Hyperlinks are stripped out in GitHub PDF viewer!)
-* [Download ArkieCoder's Resume](https://raw.githubusercontent.com/ArkieCoder/ACCV/master/Resume.pdf)
-* [View ArkieCoder's Projects on GitHub](Projects.pdf) (Hyperlinks are stripped out in GitHub PDF viewer!)
-* [Download ArkieCoder's Projects](https://raw.githubusercontent.com/ArkieCoder/ACCV/master/Projects.pdf)
-* [View ArkieCoder's Historic Work on GitHub](HistoricWork.pdf) (Hyperlinks are stripped out in GitHub PDF viewer!)
-* [Download ArkieCoder's Historic Work](https://raw.githubusercontent.com/ArkieCoder/ACCV/master/HistoricWork.pdf)
-* [LinkedIn Profile](https://tinyurl.com/4p9fne8y)
-* [GitHub Repositories](https://github.com/ArkieCoder)
+## Documents
+
+| Document | View on GitHub | Download |
+| --- | --- | --- |
+| Complete CV | [View](CV.pdf) | [Download](https://raw.githubusercontent.com/ArkieCoder/ACCV/master/CV.pdf) |
+| Resume | [View](Resume.pdf) | [Download](https://raw.githubusercontent.com/ArkieCoder/ACCV/master/Resume.pdf) |
+| Projects | [View](Projects.pdf) | [Download](https://raw.githubusercontent.com/ArkieCoder/ACCV/master/Projects.pdf) |
+| Historic Work Experience | [View](HistoricWork.pdf) | [Download](https://raw.githubusercontent.com/ArkieCoder/ACCV/master/HistoricWork.pdf) |
+
+> **Note:** GitHub's PDF viewer strips hyperlinks. Download a PDF to retain its working links.
+
+## Profiles
+
+* [LinkedIn](https://tinyurl.com/4p9fne8y)
+* [GitHub](https://github.com/ArkieCoder)
 
 ## Verified Credentials
+
 * [AWS Certified Solutions Architect - Associate](https://www.credly.com/badges/2552a566-3e3f-405b-8b41-72e589c8ac7a/public_url)
